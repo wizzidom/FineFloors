@@ -1,0 +1,400 @@
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <button id="openModal">Open Modal</button>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">×</span>
+    <div class = "card-wrapper">
+    <div class = "card">
+      <!-- card left -->
+  
+      <!-- card right -->
+      <div class = "product-content">
+        
+            <img src="krono+original+logo.jpg" alt="">
+  
+  
+  
+        <div class = "product-detail">
+          <h2>about this item: </h2>
+            <p>
+                Beautiful homes act as an oasis amidst the rush and stress of daily life. Transform your home into a cozy relaxing haven with the extremely low-maintenance Planet collection. A breeze to install, the cool crispness and easy care of these laminates will assure a welcoming home for years to come.
+
+
+            </p>
+          <ul>
+            <li>7mm HDF - Aquastop</li>
+            <li>
+                Twin Click - Easy to install with twin click system</li>
+            <li>
+                Anti Bacterial Coating</li>
+            <li>
+                Class 31 / AC3 - For Moderate commercial use </li>
+            <li>
+                Class 23 / AC3 - For Heavy domestic use</li>
+          </ul>
+        </div>
+  
+      </div>
+      <div class = "product-imgs">
+        <div class = "img-display">
+          <div class = "img-showcase">
+            <img src = "Greenland oak.webp"  alt = "shoe image">
+            <img src = "barokia oak.webp"  alt = "shoe image">
+            <img src = "Manhatting wallnut.webp" alt = "shoe image">
+                 </div>
+        </div>
+        <div class = "img-select">
+          <div class = "img-item">
+            <a href = "#" data-id = "1">
+              <img src = "Greenland oak.webp" width="100px" height="100px" alt = "shoe image">
+            </a> Greenland Oak
+          </div>
+          <div class = "img-item">
+            <a href = "#" data-id = "2">
+              <img src = "barokia oak.webp" alt = "shoe image" width="100px" height="100px">
+            </a>  
+            Baronial Oak 5945
+            
+          </div>
+          <div class = "img-item">
+            <a href = "#" data-id = "3">
+              <img src = "Manhatting wallnut.webp" width="100px" height="100px" alt = "shoe image">
+            </a>  Manhattin Wallnut
+          </div>
+       
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+
+
+.card-wrapper{
+    max-width: 350px;
+    margin: 0 auto;
+}
+modal img{
+    width: 100%;
+    display: block;
+}
+.img-display{
+    overflow: hidden;
+}
+.img-showcase{
+    display: flex;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+.img-showcase img{
+    min-width: 100%;
+}
+.img-select{
+    display: flex;
+}
+.img-item{
+    margin: 0.3rem;
+}
+.img-item:nth-child(1),
+.img-item:nth-child(2),
+.img-item:nth-child(3){
+    margin-right: 10PX;
+}
+.img-item:hover{
+    opacity: 0.8;
+}
+.product-content{
+    padding: 2rem 1rem;
+}
+.product-title{
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    position: relative;
+    color: #12263a;
+    margin: 1rem 0;
+}
+.product-title::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 80px;
+    background: #12263a;
+}
+.product-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    background: #256eff;
+    color: #fff;
+    padding: 0 0.3rem;
+    transition: all 0.5s ease;
+}
+.product-link:hover{
+    opacity: 0.9;
+}
+.product-rating{
+    color: #ffc107;
+}
+.product-rating span{
+    font-weight: 600;
+    color: #252525;
+}
+.product-price{
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.product-price span{
+    font-weight: 400;
+}
+.last-price span{
+    color: #f64749;
+    text-decoration: line-through;
+}
+.new-price span{
+    color: #256eff;
+}
+.product-detail h2{
+    text-transform: capitalize;
+    color: #12263a;
+    padding-bottom: 0.6rem;
+}
+.product-detail p{
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    opacity: 0.8;
+}
+.product-detail ul{
+    margin: 1rem 0;
+    font-size: 0.9rem;
+}
+.product-detail ul li{
+    margin: 0;
+    list-style: none;
+    background: url(https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/checked.png) left center no-repeat;
+    background-size: 18px;
+    padding-left: 1.7rem;
+    margin: 0.4rem 0;
+    font-weight: 600;
+    opacity: 0.9;
+}
+.product-detail ul li span{
+    font-weight: 400;
+}
+.purchase-info{
+    margin: 1.5rem 0;
+}
+.purchase-info input,
+.purchase-info .btn{
+    border: 1.5px solid #ddd;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.45rem 0.8rem;
+    outline: 0;
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+}
+.purchase-info input{
+    width: 60px;
+}
+.purchase-info .btn{
+    cursor: pointer;
+    color: #fff;
+}
+.purchase-info .btn:first-of-type{
+    background: #256eff;
+}
+.purchase-info .btn:last-of-type{
+    background: #f64749;
+}
+.purchase-info .btn:hover{
+    opacity: 0.9;
+}
+.social-links{
+    display: flex;
+    align-items: center;
+}
+.social-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    color: #000;
+    border: 1px solid #000;
+    margin: 0 0.2rem;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 0.8rem;
+    transition: all 0.5s ease;
+}
+.social-links a:hover{
+    background: #000;
+    border-color: transparent;
+    color: #fff;
+}
+@media screen and (max-width: 992px){
+ .img-showcase img{
+    width: 200px;
+    height: 500px;
+ }
+}
+
+@media screen and (min-width: 992px){
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.5rem;
+    }
+    .card-wrapper{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-imgs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .product-content{
+        padding-top: 0;
+    }
+}
+  </style>
+
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/*make modal box initially hidden and position fixed and define z-index to layer up */
+
+.modal {
+  /*hide initially*/
+  display: none;
+  /*how to display when visible*/
+  position: fixed;
+  /*layering stack order*/
+  z-index: 1;
+  /*positioning from*/
+  left: 0;
+  top: 0;
+  /*display*/
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50px;
+  overflow: auto;
+
+  /*frontend design and animation*/
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.3s ease;
+}
+
+/*what will be inside the modal window that is shown or hidden and how to author its design and animation*/
+.modal-content {
+  background-color: #fff;
+  /*front end layout and positioning*/
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width:  100%;
+
+  /*front end design and animation*/
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  animation: slide-down 0.3s ease-out;
+}
+/*close button*/
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/*pseudo override*/
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*keyframe animation */
+@keyframes slide-down {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+  </style>
+
+  <script>
+    const imgs = document.querySelectorAll('.img-select a');
+const imgBtns = [...imgs];
+let imgId = 1;
+
+imgBtns.forEach((imgItem) => {
+    imgItem.addEventListener('click', (event) => {
+        event.preventDefault();
+        imgId = imgItem.dataset.id;
+        slideImage();
+    });
+});
+
+function slideImage(){
+    const displayWidth = document.querySelector('.img-showcase img:first-child').clientWidth;
+
+    document.querySelector('.img-showcase').style.transform = `translateX(${- (imgId - 1) * displayWidth}px)`;
+}
+
+window.addEventListener('resize', slideImage);
+  </script>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+  var modal = document.getElementById("myModal");
+  var btn = document.getElementById("openModal");
+  var span = document.getElementsByClassName("close")[0];
+
+  btn.onclick = function () {
+    modal.style.display = "block";
+  };
+
+  span.onclick = function () {
+    modal.style.display = "none";
+  };
+
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  };
+});
+
+    </script>
+
+    <script src="script.js"></script>
+
