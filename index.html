@@ -417,6 +417,35 @@ We all want the easy life.
       <!-- card left -->
   
       <!-- card right -->
+      <div class = "product-imgs">
+        <div class = "img-display">
+          <div class = "img-showcase">
+            <img src = "Greenland oak.webp"   alt = "shoe image">
+            <img src = "barokia oak.webp"  alt = "shoe image">
+            <img src = "Manhatting wallnut.webp" alt = "shoe image">
+                 </div>
+        </div>
+        <div class = "img-select">
+          <div class = "img-item">
+            <a href = "#" data-id = "1">
+              <img src = "Greenland oak.webp" width="100px" height="100px" alt = "shoe image">
+            </a> Greenland Oak
+          </div>
+          <div class = "img-item">
+            <a href = "#" data-id = "2">
+              <img src = "barokia oak.webp" alt = "shoe image" width="100px" height="100px">
+            </a>  
+            Baronial Oak 5945
+            
+          </div>
+          <div class = "img-item">
+            <a href = "#" data-id = "3">
+              <img src = "Manhatting wallnut.webp" width="100px" height="100px" alt = "shoe image">
+            </a>  Manhattin Wallnut
+          </div>
+       
+        </div>
+      </div>
       <div class = "product-content">
         
             <img src="krono+original+logo.jpg" width="200px" alt="">
@@ -461,35 +490,7 @@ We all want the easy life.
         </div>
   
       </div>
-      <div class = "product-imgs">
-        <div class = "img-display">
-          <div class = "img-showcase">
-            <img src = "Greenland oak.webp"  alt = "shoe image">
-            <img src = "barokia oak.webp"  alt = "shoe image">
-            <img src = "Manhatting wallnut.webp" alt = "shoe image">
-                 </div>
-        </div>
-        <div class = "img-select">
-          <div class = "img-item">
-            <a href = "#" data-id = "1">
-              <img src = "Greenland oak.webp" width="100px" height="100px" alt = "shoe image">
-            </a> Greenland Oak
-          </div>
-          <div class = "img-item">
-            <a href = "#" data-id = "2">
-              <img src = "barokia oak.webp" alt = "shoe image" width="100px" height="100px">
-            </a>  
-            Baronial Oak 5945
-            
-          </div>
-          <div class = "img-item">
-            <a href = "#" data-id = "3">
-              <img src = "Manhatting wallnut.webp" width="100px" height="100px" alt = "shoe image">
-            </a>  Manhattin Wallnut
-          </div>
-       
-        </div>
-      </div>
+    
     </div>
   </div>
   <style>
@@ -502,19 +503,21 @@ We all want the easy life.
     margin: 0 auto;
 }
 modal > img{
-    width: 100%;
+    width: 90px;
     display: block;
 }
 .img-display{
-    overflow: hidden;
+    overflow: auto;
 }
 .img-showcase{
     display: flex;
     width: 100%;
+    
     transition: all 0.5s ease;
 }
 .img-showcase img{
     min-width: 100%;
+    max-height: 200px;
 }
 .img-select{
     display: flex;
