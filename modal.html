@@ -3,7 +3,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <button id="openModal">Open Modal</button>
+   
+    <button id="openModal">Test this please</button>
 
     <div id="myModal" class="modal">
         <div class="modal-content">
@@ -13,62 +14,80 @@
       <!-- card left -->
   
       <!-- card right -->
+    
       <div class = "product-content">
         
-            <img src="krono+original+logo.jpg" alt="">
+            <img src="krono+original+logo.jpg" width="200px" alt="">
   
   
-  
+  <style>
+    .des{
+      display: flex;
+      flex-direction: column;
+    }
+    .des div{
+      border: 1px solid grey;
+      padding: 10px
+    }
+  </style>
         <div class = "product-detail">
-          <h2>about this item: </h2>
+      
             <p>
                 Beautiful homes act as an oasis amidst the rush and stress of daily life. Transform your home into a cozy relaxing haven with the extremely low-maintenance Planet collection. A breeze to install, the cool crispness and easy care of these laminates will assure a welcoming home for years to come.
 
 
             </p>
-          <ul>
-            <li>7mm HDF - Aquastop</li>
-            <li>
-                Twin Click - Easy to install with twin click system</li>
-            <li>
-                Anti Bacterial Coating</li>
-            <li>
-                Class 31 / AC3 - For Moderate commercial use </li>
-            <li>
-                Class 23 / AC3 - For Heavy domestic use</li>
-          </ul>
+            <div class="des">
+              <div>
+                7mm HDF - Aquastop
+              </div>
+              <div>
+                Twin Click - Easy to install with twin click system
+              </div>
+              <div>
+                Anti Bacterial Coating
+              </div>
+              <div>
+                Class 31 / AC3 - For Moderate commercial use
+              </div>
+              <div>
+                Class 23 / AC3 - For Heavy domestic use
+              </div>
+            </div>
+
+            <br>
         </div>
-  
+        <div class = "product-imgs">
+          <div class = "img-display">
+            <div class = "img-showcase">
+              <img src = "Greenland oak.webp"   alt = "shoe image">
+              <img src = "barokia oak.webp"  alt = "shoe image">
+              <img src = "Manhatting wallnut.webp" alt = "shoe image">
+                   </div>
+          </div>
+          <div class = "img-select">
+            <div class = "img-item">
+              <a href = "#" data-id = "1">
+                <img src = "Greenland oak.webp" width="100px" height="100px" alt = "shoe image">
+              </a> Greenland Oak
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "2">
+                <img src = "barokia oak.webp" alt = "shoe image" width="100px" height="100px">
+              </a>  
+              Baronial Oak 5945
+              
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "3">
+                <img src = "Manhatting wallnut.webp" width="100px" height="100px" alt = "shoe image">
+              </a>  Manhattin Wallnut
+            </div>
+         
+          </div>
+        </div>
       </div>
-      <div class = "product-imgs">
-        <div class = "img-display">
-          <div class = "img-showcase">
-            <img src = "Greenland oak.webp"  alt = "shoe image">
-            <img src = "barokia oak.webp"  alt = "shoe image">
-            <img src = "Manhatting wallnut.webp" alt = "shoe image">
-                 </div>
-        </div>
-        <div class = "img-select">
-          <div class = "img-item">
-            <a href = "#" data-id = "1">
-              <img src = "Greenland oak.webp" width="100px" height="100px" alt = "shoe image">
-            </a> Greenland Oak
-          </div>
-          <div class = "img-item">
-            <a href = "#" data-id = "2">
-              <img src = "barokia oak.webp" alt = "shoe image" width="100px" height="100px">
-            </a>  
-            Baronial Oak 5945
-            
-          </div>
-          <div class = "img-item">
-            <a href = "#" data-id = "3">
-              <img src = "Manhatting wallnut.webp" width="100px" height="100px" alt = "shoe image">
-            </a>  Manhattin Wallnut
-          </div>
-       
-        </div>
-      </div>
+    
     </div>
   </div>
   <style>
@@ -80,20 +99,22 @@
     max-width: 350px;
     margin: 0 auto;
 }
-modal img{
-    width: 100%;
+modal > img{
+    width: 90px;
     display: block;
 }
 .img-display{
-    overflow: hidden;
+    overflow: auto;
 }
 .img-showcase{
     display: flex;
     width: 100%;
+    
     transition: all 0.5s ease;
 }
 .img-showcase img{
     min-width: 100%;
+    max-height: 200px;
 }
 .img-select{
     display: flex;
@@ -395,6 +416,3 @@ window.addEventListener('resize', slideImage);
 });
 
     </script>
-
-    <script src="script.js"></script>
-
