@@ -30,9 +30,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Back to top button */
-.back-to-top {
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.back-to-tops {
   position: fixed;
-  display: none;
+
   background: linear-gradient(45deg, #1de099, #1dc8cd);
   color: #fff;
   padding: 2px 20px 8px 20px;
@@ -41,15 +52,17 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 0;
   transition: none;
+  animation: pulse 2s infinite;
+
 }
 
-.back-to-top:focus {
+.back-to-tops:focus {
   background: linear-gradient(45deg, #1de099, #1dc8cd);
   color: #fff;
   outline: none;
 }
 
-.back-to-top:hover {
+.back-to-tops:hover {
   background: #1dc8cd;
   color: #fff;
 }
