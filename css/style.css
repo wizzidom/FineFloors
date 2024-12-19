@@ -1,4 +1,3 @@
-
 body {
   background: #fff;
   color: #666666;
@@ -11,7 +10,9 @@ a {
   transition: 0.5s;
 }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   color: #1dc9ce;
   outline: none;
   text-decoration: none;
@@ -22,7 +23,12 @@ p {
   margin: 0 0 30px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -53,7 +59,6 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   transition: none;
   animation: pulse 2s infinite;
-
 }
 
 .back-to-tops:focus {
@@ -97,14 +102,14 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-#header #logo h1 a, #header #logo h1 a:hover {
+#header #logo h1 a,
+#header #logo h1 a:hover {
   color: #fff;
 }
 
 #header #logo img {
   padding: 0;
   margin: 0;
-  obe
 }
 
 @media (max-width: 768px) {
@@ -119,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: linear-gradient(90deg,#fff , #1dc8cd);
+  background: linear-gradient(90deg, yellow, orange, brown);
   padding: 0px 0;
   height: 85px;
   transition: all 0.5s;
@@ -249,7 +254,8 @@ h1, h2, h3, h4, h5, h6 {
     position: static;
     padding-top: 30px;
   }
-  #intro .product-screens .product-screen-2, #intro .product-screens .product-screen-3 {
+  #intro .product-screens .product-screen-2,
+  #intro .product-screens .product-screen-3 {
     display: none;
   }
 }
@@ -258,7 +264,8 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Nav Menu Essentials */
-.nav-menu, .nav-menu * {
+.nav-menu,
+.nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -504,7 +511,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 60px;
   height: 3px;
   background: #1dc8cd;
-  background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+  background: linear-gradient(90deg, yellow, orange, brown);
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -620,7 +627,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #features .icon i:before {
   background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: linear-gradient(90deg, yellow, orange, brown);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -687,7 +694,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #advanced-features i:before {
   background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: linear-gradient(90deg, yellow, orange, brown);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -706,13 +713,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 768px) {
-  #advanced-features .advanced-feature-img-right, #advanced-features .advanced-feature-img-left {
+  #advanced-features .advanced-feature-img-right,
+  #advanced-features .advanced-feature-img-left {
     max-width: 50%;
   }
 }
 
 @media (max-width: 767px) {
-  #advanced-features .advanced-feature-img-right, #advanced-features .advanced-feature-img-left {
+  #advanced-features .advanced-feature-img-right,
+  #advanced-features .advanced-feature-img-left {
     max-width: 100%;
     float: none;
     padding: 0 0 30px 0;
@@ -793,7 +802,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #more-features .icon i:before {
   background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: linear-gradient(90deg, yellow, orange, brown);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -826,7 +835,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: center;
     padding-bottom: 15px;
   }
-  #more-features h4, #more-features p {
+  #more-features h4,
+  #more-features p {
     margin-left: 0;
     text-align: center;
   }
@@ -857,7 +867,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0 60px 0;
   overflow: hidden;
 }
-a{
+a {
   text-decoration: none;
 }
 #pricing .box {
@@ -925,7 +935,7 @@ a{
 }
 
 #pricing .featured .get-started-btn {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(90deg, yellow, orange, brown);
 }
 
 /* Frequently Asked Questions Section
@@ -1070,15 +1080,14 @@ a{
   padding: 10px;
   vertical-align: middle;
   text-align: center;
-  
 }
 
 #gallery .gallery-item img {
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
   width: 100%;
- 
-  box-shadow: 0px -2px 6px 4px rgba(0, 0, 0, 0.29)
+
+  box-shadow: 0px -2px 6px 4px rgba(0, 0, 0, 0.29);
 }
 
 #gallery .gallery-item:hover img {
@@ -1180,7 +1189,9 @@ a{
   margin-bottom: 15px;
 }
 
-#contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
+#contact .form #sendmessage.show,
+#contact .form #errormessage.show,
+#contact .form .show {
   display: block;
 }
 
@@ -1192,7 +1203,8 @@ a{
   font-size: 13px;
 }
 
-#contact .form input, #contact .form textarea {
+#contact .form input,
+#contact .form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
