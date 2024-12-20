@@ -124,7 +124,7 @@ h6 {
 }
 
 #header.header-fixed {
-  background: linear-gradient(90deg, yellow, orange, brown);
+  background: linear-gradient(90deg, yellow, orange);
   padding: 0px 0;
   height: 85px;
   transition: all 0.5s;
@@ -511,7 +511,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 60px;
   height: 3px;
   background: #1dc8cd;
-  background: linear-gradient(90deg, yellow, orange, brown);
+  background: linear-gradient(90deg, yellow, orange);
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -627,7 +627,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #features .icon i:before {
   background: #1dc8cd;
-  background: linear-gradient(90deg, yellow, orange, brown);
+  background: linear-gradient(90deg, yellow, orange);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -694,7 +694,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #advanced-features i:before {
   background: #1dc8cd;
-  background: linear-gradient(90deg, yellow, orange, brown);
+  background: linear-gradient(90deg, yellow, orange);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -802,7 +802,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #more-features .icon i:before {
   background: #1dc8cd;
-  background: linear-gradient(90deg, yellow, orange, brown);
+  background: linear-gradient(90deg, yellow, orange);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -935,7 +935,7 @@ a {
 }
 
 #pricing .featured .get-started-btn {
-  background: linear-gradient(90deg, yellow, orange, brown);
+  background: linear-gradient(90deg, yellow, orange);
 }
 
 /* Frequently Asked Questions Section
